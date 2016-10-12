@@ -1,0 +1,33 @@
+{
+  "name": "react-component-npm-seed",
+  "version": "1.0.0",
+  "description": "Publish your react component easily",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src/index.jsx -o index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manojsinghnegiwd/react-component-npm-seed"
+  },
+  "bugs": {
+    "url": "https://github.com/manojsinghnegiwd/react-component-npm-seed/issues"
+  },
+  "keywords": [
+    "react-component-npm-seed",
+    "seed",
+    "component-npm"
+  ],
+  "author": "Manoj Singh Negi",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+  }
+}
